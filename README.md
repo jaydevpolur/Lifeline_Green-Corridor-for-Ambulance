@@ -1,4 +1,4 @@
-# **LifeLine: Emergency Response and AI Disease Prediction System**
+# **Lifeline: Green Corridor for Ambulance and AI Disease Prediction System**
 
 #### **Overview**
 LifeLine is a comprehensive web application built using Streamlit, designed to streamline emergency medical services and assist in disease prediction. The system integrates features for real-time ambulance allocation, optimized hospital routing, and symptom-based AI disease prediction, ensuring faster and more efficient healthcare responses.
@@ -6,24 +6,17 @@ LifeLine is a comprehensive web application built using Streamlit, designed to s
 ---
 
 #### **Key Features**
-1. **Emergency Response System**:
-   - **Find Nearest Ambulance**: Dynamically locate the closest ambulance to the patient using geospatial analysis.
-   - **Optimized Route Navigation**: Fetch the fastest route from the patient's location to the nearest hospital or ambulance.
-   - **Traffic Signal Simulation**: Incorporate simulated traffic signals along the route, displaying travel times and delays.
-   - **Hospital Specialization**: Search for hospitals based on required specialization (e.g., cardiology, neurology, pulmonology).
+- **Real-Time Ambulance Allocation**  
+  Dynamic mapping and dispatching for quickest response.
 
-2. **AI Disease Prediction System**:
-   - Predict the most probable disease based on user-selected symptoms.
-   - Provide detailed descriptions of diseases using a preloaded dataset.
-   - Handle multiple symptoms efficiently with a symptom-to-disease matching algorithm.
+- **Optimized Hospital Routing**  
+  Intelligent algorithms for shortest and safest routes.
 
-3. **User Authentication**:
-   - Register and log in to access services.
-   - Securely store user session data during the application runtime.
+- **AI Disease Prediction**  
+  Input symptoms, get probable diagnoses instantly.
 
-4. **Interactive Map Visualizations**:
-   - Display ambulance and hospital locations using Folium maps.
-   - Highlight optimized routes and traffic signals for better user understanding.
+- **Intuitive Dashboard**  
+  Simple UI for emergency operators and medical staff.
 
 ---
 
@@ -53,11 +46,11 @@ LifeLine is a comprehensive web application built using Streamlit, designed to s
 #### **Installation and Usage**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/lifeline.git
+   git clone https://github.com/jaydevpolur/Lifeline_Green-Corridor-for-Ambulance.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd lifeline
+   cd Lifeline_Green-Corridor-for-Ambulance
    ```
 3. Install dependencies:
    ```bash
@@ -70,6 +63,12 @@ LifeLine is a comprehensive web application built using Streamlit, designed to s
 5. Access the application at `http://localhost:8501`.
 
 ---
+
+⚡ Usage
+- Launch the app using Streamlit.
+- Register or log in as a dispatcher or medical staff.
+- Access ambulance tracking, routing, and disease prediction modules.
+- Respond to emergencies with optimized workflow!
 
 #### **Future Enhancements**
 - Integrate real-time traffic data for more accurate travel time estimation.
